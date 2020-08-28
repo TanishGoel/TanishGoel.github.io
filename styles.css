@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: 'IBM Plex Sans', sans-serif;
-    margin-left: 18%;
+    margin-left: 10%;
 }
 
 div {
@@ -89,7 +89,7 @@ nav a:hover {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     color: rgb(54, 54, 54);
-    font-size: 110%;
+    font-size: 120%;
     line-height: 150%;
 }
 
@@ -141,4 +141,16 @@ h1 {
 
 .current {
     color: rgb(31, 31, 31);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin-left: 7%;
+    }
+    .main {
+        margin-right: 7%;
+    }
+    .name {
+        font-size: 150%;
+    }
 }
