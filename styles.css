@@ -1,0 +1,35 @@
+body {
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 110%;
+    margin-left: 6%;
+    margin-top: 4%;
+    margin-right: 45%;
+    line-height: 140%;
+}
+div {
+    margin-top: 2%;
+}
+a {
+    text-decoration: none;
+    color: #0339fc;
+}
+
+@media only screen and (max-device-width: 600px) {
+    body {
+        font-family: 'IBM Plex Sans';
+        font-weight: 400;
+        font-size: 110%;
+        margin-left: 6%;
+        margin-top: 4%;
+        margin-right: 6%;
+        line-height: 140%;
+    }
+    div {
+        margin-top: 4%;
+    }
+    a {
+        text-decoration: none;
+        color: #0339fc;
+    }
+}
